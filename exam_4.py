@@ -11,8 +11,9 @@ def is_prime(n):
 
 
 if __name__ == '__main__':
+    max_value = 5
     r = {}
-    for i in range(1, 10):
+    for i in range(1, max_value + 1):
         a = is_prime(i)
         r[i] = a
     a = 0
