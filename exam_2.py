@@ -1,4 +1,4 @@
-def is_prime(n):
+def check_number(n):
     if n >= 2:
         if n == 2:
             return True
@@ -13,19 +13,7 @@ def is_prime(n):
 if __name__ == '__main__':
     r = {}
     for i in range(1, 10):
-        r[i] = is_prime(i)
+        r[i] = check_number(i)
 
     for k, v in r.items():
         print(k, v)
-    """
-    Result 
-    1 False
-    2 True
-    3 False
-    4 False
-    5 False
-    6 False
-    7 False
-    8 False
-    9 False
-    """
